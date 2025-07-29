@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>HomeWay</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta
+            name="keywords"
+            content="домашний уют, организация пространства, уборка, советы по дому, лайфхаки, эффективное хранение, интерьер, бытовые советы, ремонт, чистота дома, минимализм, оптимизация пространства, порядок в доме, уход за жильем, практичные решения для дома"
+        />
+        <meta
+            name="description"
+            content="Познавательный ресурс, посвящённый лайфхакам и научно обоснованным подходам к организации домашнего пространства, поддержанию чистоты и выполнению мелкого ремонта. Помогаем сделать дом комфортным, чистым и функциональным без излишней суеты."
+        />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border text-primary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid nav-bar sticky-top px-4 py-2 py-lg-0">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a
+                    href=""
+                    class="navbar-brand p-0"
+                    style="display: flex; align-items: center"
+                >
+                    <h1 class="display-6 text-dark">HomeWay</h1>
+                    <img src="img/logo.png" alt="Logo" />
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                >
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div
+                        class="navbar-nav mx-auto py-0"
+                        style="margin-right: 0px !important"
+                    >
+                        <a href="index.html" class="nav-item nav-link active"
+                            >Главная</a
+                        >
+                        <a href="about.html" class="nav-item nav-link">О нас</a>
+                        <a href="service.html" class="nav-item nav-link"
+                            >Советы по дому</a
+                        >
+                        <a href="testimonial.html" class="nav-item nav-link"
+                            >Отзывы и идеи</a
+                        >
+                        <a href="contact.html" class="nav-item nav-link"
+                            >Контакты</a
+                        >
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Navbar & Hero End -->
+
+        <!-- Carousel Start -->
+        <div class="header-carousel owl-carousel">
+            <div class="header-carousel-item">
+                <img
+                    src="img/carousel-1.jpg"
+                    class="img-fluid w-100"
+                    alt="Image"
+                />
+                <div class="carousel-caption">
+                    <div class="container align-items-center py-4">
+                        <div class="row g-5 align-items-center">
+                            <div
+                                class="col-xl-7 fadeInLeft animated"
+                                data-animation="fadeInLeft"
+                                data-delay="1s"
+                                style="animation-delay: 1s"
+                            >
+                                <div class="text-start">
+                                    <h4
+                                        class="text-primary text-uppercase fw-bold mb-4"
+                                    >
+                                        Советы по уюту и порядку в доме
+                                    </h4>
+                                    <h1
+                                        class="display-4 text-uppercase text-white mb-4"
+                                    >
+                                        Организация пространства легко
+                                    </h1>
+                                    <p class="mb-4 fs-5">
+                                        Узнайте, как эффективно организовать
+                                        домашнее пространство: от кухонных
+                                        ящиков до систем хранения в шкафу.
+                                        Простые и доступные советы помогут
+                                        улучшить порядок и комфорт без лишних
+                                        затрат.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-carousel-item">
+                <img
+                    src="img/carousel-2.jpg"
+                    class="img-fluid w-100"
+                    alt="Image"
+                />
+                <div class="carousel-caption">
+                    <div class="container py-4">
+                        <div class="row g-5 align-items-center">
+                            <div
+                                class="col-xl-7 fadeInLeft animated"
+                                data-animation="fadeInLeft"
+                                data-delay="1s"
+                                style="animation-delay: 1s"
+                            >
+                                <div class="text-start">
+                                    <h4
+                                        class="text-primary text-uppercase fw-bold mb-4"
+                                    >
+                                        Уход за домом просто и эффективно
+                                    </h4>
+                                    <h1
+                                        class="display-4 text-uppercase text-white mb-4"
+                                    >
+                                        Умные лайфхаки для уборки
+                                    </h1>
+                                    <p class="mb-4 fs-5">
+                                        Научитесь быстро и качественно убирать
+                                        дом, используя проверенные методы.
+                                        Натуральные средства, простые техники и
+                                        порядок без лишних усилий — всё это вы
+                                        найдёте в наших материалах.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Feature Start -->
+        <div class="container-fluid feature py-5">
+            <div class="container py-5">
+                <div class="row g-4">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="feature-item">
+                            <img
+                                src="img/feature-1.jpg"
+                                class="img-fluid rounded w-100"
+                                alt="Image"
+                            />
+                            <div class="feature-content p-4">
+                                <div class="feature-content-inner">
+                                    <h4 class="text-white">
+                                        Хранение вещей: идеи и советы
+                                    </h4>
+                                    <p class="text-white">
+                                        Узнайте, как оптимизировать хранение в
+                                        маленьких пространствах. Использование
+                                        вертикального пространства, скрытых
+                                        полок и контейнеров поможет навести
+                                        порядок и сохранить уют.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="feature-item">
+                            <img
+                                src="img/feature-2.jpg"
+                                class="img-fluid rounded w-100"
+                                alt="Image"
+                            />
+                            <div class="feature-content p-4">
+                                <div class="feature-content-inner">
+                                    <h4 class="text-white">
+                                        Домашние ремонты без стресса
+                                    </h4>
+                                    <p class="text-white">
+                                        Пошаговые инструкции по мелкому ремонту
+                                        дома: от замены ручек на мебели до
+                                        устранения скрипа полов. Всё, что нужно
+                                        для самостоятельного поддержания уюта.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature End -->
+
+        <!-- About Start -->
+        <div class="container-fluid about pb-5">
+            <div class="container pb-5">
+                <div class="row g-5">
+                    <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div>
+                            <h4 class="text-primary">Наш подход</h4>
+                            <h1 class="display-5 mb-4">
+                                Практичные знания для домашнего уюта
+                            </h1>
+                            <p class="mb-5">
+                                Мы предлагаем исключительно образовательные
+                                материалы, которые помогут вам улучшить быт:
+                                систематизация уборки, организация хранения,
+                                рациональное использование пространства.
+                                Материалы подойдут для любого дома, независимо
+                                от площади и бюджета. Наши советы основаны на
+                                научных принципах эргономики и гигиены. Здесь вы
+                                узнаете, как наладить комфортную атмосферу в
+                                доме своими силами — шаг за шагом, легко и
+                                доступно. Это не реклама, а образовательный
+                                контент для всех, кто стремится к порядку и
+                                гармонии в доме.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="position-relative rounded">
+                            <div class="rounded" style="margin-top: 40px">
+                                <div class="row g-0">
+                                    <div class="col-lg-12">
+                                        <div class="rounded mb-4">
+                                            <img
+                                                src="img/approach.jpg"
+                                                class="img-fluid rounded w-100"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Ticket Packages Start -->
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div
+                        class="col-lg-12 col-xl-4 wow fadeInUp"
+                        data-wow-delay="0.2s"
+                    >
+                        <div class="packages-item h-100">
+                            <h4 class="text-primary">
+                                Полезные советы для уюта и порядка
+                            </h4>
+                            <h1 class="display-5 mb-4">
+                                Эффективные приёмы для организации и ремонта
+                            </h1>
+                            <p class="mb-4">
+                                Изучите простые и действенные методы, которые
+                                помогут сделать ваш дом более комфортным.
+                                Практические рекомендации по организации
+                                пространства, хранению и выполнению мелких
+                                ремонтных работ помогут вам улучшить качество
+                                жизни в домашних условиях.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-xl-4 wow fadeInUp"
+                        data-wow-delay="0.4s"
+                    >
+                        <div
+                            class="pricing-item bg-dark rounded text-center p-5 h-100"
+                            style="background: #e7e7e7 !important"
+                        >
+                            <div class="pb-4">
+                                <h2
+                                    class="mb-4 pb-4 text-primary border-bottom"
+                                >
+                                    Упрощаем хранение дома
+                                </h2>
+                                <p class="mb-4">
+                                    Советы по организации хранения в шкафах,
+                                    кухне и ванной. Используйте вертикальное
+                                    пространство, коробки и разделители, чтобы
+                                    рационально использовать каждый сантиметр
+                                    жилья.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-xl-4 wow fadeInUp"
+                        data-wow-delay="0.4s"
+                    >
+                        <div
+                            class="pricing-item bg-dark rounded text-center p-5 h-100"
+                            style="background: #e7e7e7 !important"
+                        >
+                            <div class="pb-4">
+                                <h2
+                                    class="mb-4 pb-4 text-primary border-bottom"
+                                >
+                                    Советы по мелкому ремонту
+                                </h2>
+                                <p class="mb-4">
+                                    Простые пошаговые инструкции по
+                                    самостоятельной замене кранов, ремонту
+                                    дверей, фиксации скрипящих полов и других
+                                    бытовых задач. Всё для вашего удобства без
+                                    вызова мастера.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Ticket Packages End -->
+
+        <!-- Attractions Start -->
+        <div class="container-fluid attractions py-5">
+            <div class="container attractions-section py-5">
+                <div
+                    class="text-center mx-auto pb-5 wow fadeInUp"
+                    data-wow-delay="0.2s"
+                    style="max-width: 800px"
+                >
+                    <h4 class="text-primary">Наши полезные материалы</h4>
+                    <h1 class="display-5 text-white mb-4">
+                        Актуальные лайфхаки для дома и уюта
+                    </h1>
+                    <p class="text-white mb-0">
+                        Ознакомьтесь с практическими решениями для дома:
+                        улучшите уборку, ремонт, хранение и зонирование
+                        пространства. Эти идеи помогут вам повысить уровень
+                        комфорта и упростить повседневную жизнь.
+                    </p>
+                </div>
+                <div
+                    class="owl-carousel attractions-carousel wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <div
+                        class="attractions-item wow fadeInUp"
+                        data-wow-delay="0.2s"
+                    >
+                        <img
+                            src="img/attraction-1.jpg"
+                            class="img-fluid rounded w-100"
+                            alt=""
+                        />
+                        <a href="#" class="attractions-name"
+                            >Хранение на балконе и лоджии</a
+                        >
+                    </div>
+                    <div
+                        class="attractions-item wow fadeInUp"
+                        data-wow-delay="0.4s"
+                    >
+                        <img
+                            src="img/attraction-2.jpg"
+                            class="img-fluid rounded w-100"
+                            alt=""
+                        />
+                        <a href="#" class="attractions-name"
+                            >Эффективные способы уборки без химии</a
+                        >
+                    </div>
+                    <div
+                        class="attractions-item wow fadeInUp"
+                        data-wow-delay="0.6s"
+                    >
+                        <img
+                            src="img/attraction-3.jpg"
+                            class="img-fluid rounded w-100"
+                            alt=""
+                        />
+                        <a href="#" class="attractions-name"
+                            >Лёгкий ремонт мебели своими руками</a
+                        >
+                    </div>
+                    <div
+                        class="attractions-item wow fadeInUp"
+                        data-wow-delay="0.8s"
+                    >
+                        <img
+                            src="img/attraction-4.jpg"
+                            class="img-fluid rounded w-100"
+                            alt=""
+                        />
+                        <a href="#" class="attractions-name"
+                            >Как устранить скрип дверей</a
+                        >
+                    </div>
+                    <div
+                        class="attractions-item wow fadeInUp"
+                        data-wow-delay="1s"
+                    >
+                        <img
+                            src="img/attraction-5.jpg"
+                            class="img-fluid rounded w-100"
+                            alt=""
+                        />
+                        <a href="#" class="attractions-name"
+                            >Организация кухни: экономия пространства</a
+                        >
+                    </div>
+                    <div
+                        class="attractions-item wow fadeInUp"
+                        data-wow-delay="1s"
+                    >
+                        <img
+                            src="img/attraction-6.jpg"
+                            class="img-fluid rounded w-100"
+                            alt=""
+                        />
+                        <a href="#" class="attractions-name"
+                            >Моющие средства из подручных средств</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Attractions End -->
+
+        <!-- Contact Start -->
+        <div class="container-fluid contact py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div
+                        class="col-12 col-xl-6 wow fadeInUp"
+                        data-wow-delay="0.2s"
+                    >
+                        <div>
+                            <div class="row g-4">
+                                <div class="col-lg-12">
+                                    <div
+                                        class="contact-add-item rounded bg-light p-5"
+                                    >
+                                        <div>
+                                            <h4>
+                                                Начните наводить порядок уже
+                                                сегодня!
+                                            </h4>
+                                            <p class="mb-0">
+                                                Мы собрали для вас полезные
+                                                рекомендации и приёмы для
+                                                создания уюта в доме. Независимо
+                                                от метража или состояния жилья —
+                                                вы сможете улучшить его с
+                                                помощью базовых знаний и
+                                                регулярной практики. Темы
+                                                включают бытовую организацию,
+                                                уборку, простые ремонты и многое
+                                                другое. Все материалы носят
+                                                исключительно образовательный
+                                                характер и подойдут для
+                                                самостоятельного применения в
+                                                повседневной жизни.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="bg-light p-5 rounded h-100">
+                            <form>
+                                <div class="row g-4">
+                                    <div class="col-lg-12 col-xl-6">
+                                        <div class="form-floating">
+                                            <input
+                                                type="text"
+                                                class="form-control border-0"
+                                                id="name"
+                                                placeholder="Ваше имя"
+                                            />
+                                            <label for="name">Ваше имя</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-xl-6">
+                                        <div class="form-floating">
+                                            <input
+                                                type="email"
+                                                class="form-control border-0"
+                                                id="email"
+                                                placeholder="Ваш email"
+                                            />
+                                            <label for="email">Ваш email</label>
+                                            <div
+                                                id="result"
+                                                style="
+                                                    color: red;
+                                                    font-size: 12px;
+                                                "
+                                            ></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea
+                                                class="form-control border-0"
+                                                placeholder="Оставьте сообщение"
+                                                id="message"
+                                                style="height: 160px"
+                                            ></textarea>
+                                            <label for="message"
+                                                >Сообщение</label
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button
+                                            class="btn btn-primary w-100 py-3"
+                                            id="submit"
+                                            onclick="sendForm()"
+                                        >
+                                            Отправить сообщение
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- Blog Start -->
+        <div class="container-fluid blog pb-5">
+            <div class="container pb-5">
+                <div
+                    class="text-center mx-auto pb-5 wow fadeInUp"
+                    data-wow-delay="0.2s"
+                    style="max-width: 800px"
+                >
+                    <h4 class="text-primary">Блог</h4>
+                    <h1 class="display-5 mb-4">
+                        Полезные статьи о жизни в доме: организация, уборка и
+                        ремонт
+                    </h1>
+                    <p class="mb-0">
+                        Следите за нашими обновлениями и изучайте новые советы
+                        по обустройству домашнего пространства. В блоге собраны
+                        научно обоснованные и практические материалы по
+                        эффективной организации хранения, методам уборки и
+                        простым способам ремонта, которые помогут сделать ваш
+                        дом комфортнее и уютнее.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <a href="#">
+                                    <img
+                                        src="img/blog-1.jpg"
+                                        class="img-fluid w-100 rounded-top"
+                                        alt="Image"
+                                    />
+                                </a>
+                                <div class="blog-date">
+                                    <i class="fas fa-clock me-2"></i> 19
+                                    августа, 2024
+                                </div>
+                            </div>
+                            <div class="blog-content p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">
+                                    Как эффективно организовать хранение вещей в
+                                    малогабаритной квартире
+                                </a>
+                                <p class="mb-4">
+                                    Разбираем принципы рационального
+                                    использования пространства. В статье
+                                    подробно описаны техники минимализма,
+                                    использование вертикальных зон и
+                                    многофункциональной мебели для упрощения
+                                    повседневной жизни.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <a href="#">
+                                    <img
+                                        src="img/blog-2.jpg"
+                                        class="img-fluid w-100 rounded-top"
+                                        alt="Image"
+                                    />
+                                </a>
+                                <div class="blog-date">
+                                    <i class="fas fa-clock me-2"></i> 23 мая,
+                                    2024
+                                </div>
+                            </div>
+                            <div class="blog-content p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">
+                                    Научные подходы к уборке дома: как сохранить
+                                    чистоту и порядок без лишних усилий
+                                </a>
+                                <p class="mb-4">
+                                    В статье рассмотрены проверенные методы
+                                    уборки с минимальными затратами времени и
+                                    сил. Особое внимание уделено экологичным
+                                    средствам и системному планированию домашних
+                                    дел.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid footer py-5 wow fadeIn"
+            data-wow-delay="0.2s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item">
+                            <a href="index.html" class="p-0">
+                                <h4 class="text-white mb-4">
+                                    Советы по дому и комфорту
+                                </h4>
+                            </a>
+                            <p class="mb-2">
+                                Регулярно обновляемые материалы с научным и
+                                практическим подходом помогут вам создавать уют
+                                и порядок в вашем доме. Ознакомьтесь с
+                                рекомендациями по хранению, уборке и ремонту,
+                                которые легко применить самостоятельно.
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <i
+                                    class="fas fa-map-marker-alt text-primary me-3"
+                                ></i>
+                                <p class="text-white mb-0">
+                                    Улица Достык Номер 14, Дихан 160547,
+                                    Казахстан
+                                </p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i
+                                    class="fas fa-envelope text-primary me-3"
+                                ></i>
+                                <p class="text-white mb-0">
+                                    home_way@gmail.com
+                                </p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i
+                                    class="fa fa-phone-alt text-primary me-3"
+                                ></i>
+                                <p class="text-white mb-0">+77473537853</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">Быстрые ссылки</h4>
+                            <a href="index.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Главная</a
+                            >
+                            <a href="about.html"
+                                ><i class="fas fa-angle-right me-2"></i> О
+                                нас</a
+                            >
+                            <a href="contact.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Контакты</a
+                            >
+                            <a href="terms-of-use.html"
+                                ><i class="fas fa-angle-right me-2"></i> Условия
+                                использования</a
+                            >
+                            <a href="privacy-policy.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Политика конфиденциальности</a
+                            >
+                            <a href="cookie-policy.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Политика использования cookie</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-5">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">Часы работы</h4>
+                            <div class="opening-date mb-3 pb-3">
+                                <div class="opening-clock flex-shrink-0">
+                                    <h6 class="text-white mb-0 me-auto">
+                                        Понедельник - Пятница:
+                                    </h6>
+                                    <p class="mb-0">
+                                        <i
+                                            class="fas fa-clock text-primary me-2"
+                                        ></i>
+                                        11:00 - 16:00
+                                    </p>
+                                </div>
+                                <div class="opening-clock flex-shrink-0">
+                                    <h6 class="text-white mb-0 me-auto">
+                                        Суббота - Воскресенье:
+                                    </h6>
+                                    <p class="mb-0">
+                                        <i
+                                            class="fas fa-clock text-primary me-2"
+                                        ></i>
+                                        9:00 - 17:00
+                                    </p>
+                                </div>
+                                <div class="opening-clock flex-shrink-0">
+                                    <h6 class="text-white mb-0 me-auto">
+                                        Праздники:
+                                    </h6>
+                                    <p class="mb-0">
+                                        <i
+                                            class="fas fa-clock text-primary me-2"
+                                        ></i>
+                                        9:00 - 17:00
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-primary btn-lg-square rounded-circle back-to-top"
+            ><i class="fa fa-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie Consent</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    This website uses cookies to provide you with a better and
+                    more relevant browsing experience.
+                    <a href="cookie-policy.html">Learn more...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Accept</button>
+                <button class="cookie-button" id="declineBtn">Decline</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+        <script src="js/contact-form.js"></script>
+    </body>
+</html>
